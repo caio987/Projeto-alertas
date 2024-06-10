@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganhe prêmios </title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <!-- golpe um -->
+    <center>
+    <h1> Siga nossa pagina e ganhe prêmios </h1>
+    <h3> Siga abaixo e ganhe o seu prêmio </h3>
+    <a href="https://pancadao.com.br/"><img src="images.jpg" alt=""></a>
+    <br><br>
+    <input type="button" value="Clique aqui" onclick="apertar()" class = "botao">
+    </center>
+
+    <script> //javascript
+        function apertar() {
+           // alert("apertoooooooou") // teste pra ver se o botao funciona 
+           Swal.fire({
+            title: "PARABENS!",
+            text: "VOCÊ ACABA DE GANHAR 50.000.00 REAIS!",
+            icon: "success"
+          });
+        }
+
+        function apertar2() {
+        Swal.fire({
+            icon: "warning",
+            title: "URGENTE!",
+            text: "ESTÁ PRECISANDO DE DINHEIRO? ENTRE NO NOSSO LINK JÁ!",
+            footer: '<a href="#">Why do I have this issue?</a>'
+              });
+            }
+
+        function apertar3() {
+        Swal.fire({
+            icon: "warning",
+            title: "Precisamos de você!",
+            text: "Clique aqui para doar a pessoas necessitadas ",
+            footer: '<a href="#">Why do I have this issue?</a>'
+             });
+        }
+
+        function apertar4() {
+            Swal.fire({
+                icon: "warning",
+                title: "COMO FICAR RICO EM 2 DIAS!",
+                text: "Clique aqui para assinar nosso curso",
+                footer: '<a href="#">Why do I have this issue?</a>'
+                 });
+            }
+    </script>
+
+    <!-- golpe dois -->
+    <center>
+        <h1> Clique se você está precisando de dinheiro  </h1>
+        <a href="https://pancadao.com.br/"><img src="images (1).jpg" alt=""></a>
+        <br><br>
+        <input type="button" value="Clique aqui" onclick="apertar2()" class = "botao">
+    </center>
+
+
+    <!-- golpe três -->
+    <center>
+        <h1> Se você tem um bom coração clique aqui para doar aos necessitados, senão ignore </h1>
+        <a href="https://pancadao.com.br/"><img src="images (2).jpg" alt=""></a>
+        <br><br>
+        <input type="button" value="Clique aqui" onclick="apertar3()" class = "botao">
+    </center>
+
+
+    <!-- golpe quatro -->
+    <center>
+        <h1> Clique aqui para saber como conseguir dinheiro fácil  </h1>
+        <a href="https://pancadao.com.br/"><img src="images (3).jpg" alt=""></a>
+        <br><br>
+        <input type="button" value="Clique aqui" onclick="apertar4()" class = "botao">
+    </center>
+</body>
+</html>
